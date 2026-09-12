@@ -17,7 +17,7 @@ import {
   LogOut,
   Save,
 } from "lucide-react";
-import { useApp } from "../context/AppContext";
+import { useApp } from "./AppContext";
 import { getTranslation } from "../translations";
 
 export const SettingsView: React.FC = () => {
